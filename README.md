@@ -1,16 +1,16 @@
 # LeafSLA
 Pipeline for automated measurements of leaf images
 
-##### Code Requirements:
+### Code Requirements:
  - python≥3.12.2 (& miniconda)
  - python libraries listed in requirements.sh
  - SAM vit.b model version (though others are adaptable into the pipeline)–this will auto-download during the execution of requirements.sh
 
-##### Image Requirements:
+### Image Requirements:
  - simple background with leaf in focus and well-lit
  - a red square for size comparison. can vary in size but an integer-based side length is recommended (e.g., 1cm*1cm)
 
-##### To run out of the box:
+### To run out of the box:
 on a system without python/miniconda/coding IDE installed:
  - visit Anaconda and download the appropriate Miniconda installer: https://www.anaconda.com/download/success
     - follow the instructions for miniconda setup 
@@ -22,7 +22,7 @@ on a system without python/miniconda/coding IDE installed:
     - enter: quit() <- allows you to exit python prompter
     - continue following instructions below
  
- if you already have python/miniconda/coding IDE installed, begin here:
+### if you already have python/miniconda/coding IDE installed, begin here:
  - in terminal, navigate to the LeafSLA folder,then enter: zsh requirements.sh 
     - to navigate, use cd ~/path/to/LeafSLA
     - this script will download SAM and install required packages for leaf_SLA.py and pipeline.ipynb
